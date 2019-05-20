@@ -9,3 +9,10 @@ In this problem statement, we had to use the UCSD Anomaly Detection in Videos da
 ## Our Approach
 
 We designed an LSTM+CNN based neural network which takes both original frame data and the optical flow frame data into separate branches and concatentating the filters at an intermediate stage to feed them into a common deep network.
+
+![Model Diagram](/images/model_diagram.png)
+
+## Results
+
+We trained the network against Binary Cross Entropy Loss and it trained till 99% accuracy without overfitting. We won the overall 2nd Prize during the contest.
+![2nd Prize Winners](/images/prize_presentation.jpeg)
